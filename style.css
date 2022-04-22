@@ -1,0 +1,1070 @@
+#left_navbar{
+    display: grid;
+    grid-template-columns: 10.909vw 33.006vw 33.664vw;
+    grid-template-rows: 0vw 0.091vw 3.146vw ;
+    grid-area: 1/1/2/2;
+    border-width: 0.01vw;
+    height:4.6vw;
+    border-style: solid;
+    position: relative;
+    top: -0.6vw;
+    border-left-width: 0px;
+
+}    
+
+#search{
+    grid-area: 3/2/4/3;
+    position: relative;
+    top: 0.5vw;
+
+}
+
+#navbar_link{
+    grid-area: 1/3/4/4;
+    display: grid;
+    grid-template-columns: repeat(6,5.664vw);
+    position: relative;
+    top: 0.5vw;
+    
+}
+
+ 
+body {
+    background-color:#f4f2ee;
+    font-family: sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} 
+
+#logo{
+    width: 2.477vw;
+    position: relative;
+    top: 0.5vw;
+
+}
+
+
+#navbar_link figure {
+    width: 5.594vw;
+    position: relative;
+    top: 0%;
+    margin: 0%;
+
+}
+
+#navbar_link figure img{
+    width: 2.307vw;
+    margin: 0px;
+    align-self: center;
+}
+
+#navbar_link figure figcaption{
+    font-size: small;
+    align-self: center;
+    color: gray;
+
+}
+
+#navbar_link figure figcaption img{
+    width: 1.3vw;
+    align-self: center;
+
+}
+
+#search_logo{
+    height: 2.277vw;
+    border-color:#ebebeb;
+    border-width: 0.01vw;
+    border-style: solid;
+    border-right: 0px;
+    position: relative;
+    top: 0.5vw;
+}
+
+#search_bar{
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-left: 0px;
+    border-style: solid;
+    height: 2.15vw;
+    width: 18.673vw;
+    background-color: #eef3f8;
+    position: relative;
+    top: -0.35vw;
+    left: -0.3vw;
+}
+
+::placeholder{
+    font-size: small;
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: 75.853vw 23.146vw;
+    background-color: #fdffff;
+    position: relative;
+    width: 100vw;
+    position: relative;
+    top: -0.55vw;
+    height: 4vw;
+}
+
+#right_navbar{
+    grid-area: 1/2/2/3;
+    display: grid;
+    grid-template-columns: 5.944vw 17.132vw;
+    grid-template-rows: 3.736vw ;
+    position: relative;
+    top:-20%;
+    border-width: 0.01vw;
+    height:5vw;
+    border-style: solid;
+    border-right-width: 0px;
+}
+
+#work{
+    grid-area: 1/1/3/2;
+}
+
+#work img{
+    width: 2.307vw;
+    align-self: center;
+    position: relative;
+    top: 0.1vw;
+}  
+
+
+#work img+figcaption{
+    position: relative;
+    top: 0.1vw;
+}  
+    
+    
+#work figcaption img{
+    width: 1vw;
+    align-self: center;
+    position: relative;
+    top: -1vw;
+    left: 2vw;
+      
+}
+
+
+#work figcaption{
+    font-size: small;
+      
+}
+
+#quote{
+    grid-area: 1/2/2/3;
+    font-size: small;
+    color:#915b0a;
+    position: relative;
+    top: 0.8vw;
+    left:1vw
+}
+
+#p1{
+    margin-bottom: 0px;
+}
+
+#p2{
+    margin-top: 0px ;
+}
+
+.home_img{
+    position: relative;
+    top: 0.3vw;
+
+}
+
+.home_img+figcaption{
+    position: relative;
+    top: 0.3vw;
+    color:black;
+
+}
+.network_img{
+    position: relative;
+    left: 0.3vw;
+    top: 0.4vw;
+}
+
+.network_img + figcaption{
+
+    position: relative;
+    left: -0.5vw;
+    top:0.4vw
+}
+
+.job_img+figcaption{
+    position: relative;
+    left: 1vw;
+    top: 0.4vw;
+}
+
+.job_img{
+    position: relative;
+    left: 0.6vw;
+    top: 0.4vw;
+}
+
+.messaging_img{
+    position: relative;
+    left: 0.7vw;
+    top: 0.4vw;
+}
+
+
+.messaging_img+figcaption{
+    position: relative;
+    top: 0.4vw;
+}
+
+.notification_img{
+    position: relative;
+    left: 1vw;
+    top: 0.5vw;
+}
+
+
+.notification_img+figcaption{
+    position: relative;
+    top: 0.4vw;
+}
+
+.me_img+figcaption{
+    position: relative;
+    top: 0.25vw;
+}
+
+#navbar_link figure .me_img{
+    position: relative;
+    top: 0.5vw;
+    width: 2vw;
+}
+
+
+/* 
+#b1{
+    border-bottom-right-radius: 15vw;
+    border-top-right-radius:15vw;
+    grid-area: 1/1/2/2;
+    background-color: #a0b4b7;
+    
+}
+
+#b2{
+    grid-area: 1/2/2/3;
+    background-color: #d9e5e8;
+    
+}
+
+#b3{
+    grid-area: 1/3/2/4;
+    background-color: #bfd3d6;
+} */
+
+#min_prof{
+    display: grid;
+    grid-template-columns: 10.979vw 15.680vw;
+    grid-template-rows: 1.224vw 3.986vw 9.02vw 4.615vw 5.433vw 3.993vw;
+    font-weight:100;
+    grid-area: 1/1/2/2;
+}
+
+.top_border{
+    grid-area: 2/2/3/3;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+}
+
+.top_border img{
+    width:15.68vw;
+
+}
+
+#profile img{
+    width: 4.755vw;
+    border-radius: 50%;
+    position: relative;
+    left: 5.4vw;
+    top: -2.6vw;
+}
+
+#profile{
+    grid-area: 3/2/4/3;
+    background-color:#fdffff;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+}
+
+#con{
+    grid-area:4/2/5/3;
+    background-color: #fdffff;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+}
+
+#tools{
+    grid-area: 5/2/6/3;
+    background-color: #fdffff;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+}
+
+#items{
+    grid-area: 6/2/7/3;
+    background-color: #fdffff;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    border-radius: 0px 0px 1vw 1vw;
+}
+
+#profile h3{
+    position: relative;
+    top: -3vw;
+    text-align: center;
+}
+
+
+#profile h5{
+    position: relative;
+    top: -3vw;
+    left: 4.5vw;
+    color: gray;
+}
+
+#con h5{
+    position: relative;
+    left: 1vw;
+    top: 2vw;
+    font-style: normal;
+    margin-top: -1vw;
+    margin-bottom: -0.1vw;
+
+ 
+}
+/* 
+.num_com{
+    position: relative;
+    top: 2vw;
+    margin: -10px;
+    color: blue;
+
+} */
+
+#con span{
+
+    position: relative;
+    top: 0.9vw;
+    left: 13vw;
+    color:#1966b8;
+    font-size: smaller;
+
+
+}
+
+.con_font1{
+color: gray;
+
+}
+
+#tools h5{
+    position: relative;
+    top: 2vw;
+    font-style: normal;
+    margin-top: -1vw;
+    margin-bottom: -0.1vw;
+    font-size: 0.7em;
+}
+
+.tools_font3{
+    position: relative;
+    left: 3vw;
+}
+
+.tools_font1{
+    position: relative;
+    left: 1vw;
+    font-weight: lighter;
+}
+
+#tools img{
+    position: relative;
+    top: 3vw;
+    width: 1.5vw;
+    left: 1vw;
+}
+
+
+#items img{
+    width:1.5vw;
+    position: relative;
+    left: 1vw;
+    top:1vw;
+}
+
+#items h5{
+    position: relative;
+    left: 3vw;
+    top: -2vw;
+    font-weight: normal;
+
+}
+
+#home_page{
+    display: grid;
+    grid-template-columns: 11.468vw 15.804vw 1.748vw 37.762vw 1.748vw 22.027vw;
+    
+}
+
+
+#bmin_prof{
+    display: grid;
+    grid-template-columns: 10.979vw 15.680vw;
+    grid-area: 1/1/2/2;
+    position: relative;
+    top: 28.513vw;
+}
+
+#bmin_prof1{
+    grid-area: 1/2/2/3;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    background-color: #fdffff;
+    border-radius: 1vw 1vw 0px 0px;
+    position: relative;
+    top: 0.5vw;
+    height: 8vw ;
+}
+
+#bmin_prof1 h4{
+    color: #1966b8;
+    position: relative;
+    left: 1vw;
+    font-size: small;
+}
+
+#bmin_prof1 h4 span{
+    position: relative;
+    left: 9vw;
+    color: gray;
+    font-size: large;
+}
+
+#bmin_prof2{
+    grid-area: 2/2/3/3;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    background-color: #fdffff;
+    border-radius: 0px 0px 1vw 1vw;
+    position: relative;
+    color: gray;
+    top: -18.2vw;
+    height: 3vw;
+    
+}
+
+#bmin_prof2 p{
+    position: relative;
+    left: 4vw;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.post_dp{
+    width:3.856vw;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    top: 0.6vw;
+    left: 0.8vw;
+}
+
+#post{
+    grid-area: 1/4/2/5;
+    display: grid;
+    grid-template-rows: 1.344vw 8.251vw 2.237vw ;
+}
+/* 
+#post_self figure img{
+    width: 2.198vw;
+
+} */
+
+.post_photo img,.post_video img,.post_event img,.post_article img{
+    width: 2.198vw;
+}
+
+
+#post_self{
+    grid-area: 2/1/3/2;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    background-color: #fdffff;
+    border-radius: 1vw;
+}
+
+#post_self input{
+    position: relative;
+    left: 1vw;
+    top: -1vw;
+    width: 30.468vw;
+    height: 2.596vw;
+    border-radius: 2em;
+    border-width: 0.1vw;
+    
+}
+
+#post_self ::placeholder{
+    position: relative;
+    left: 1vw;
+    font-weight: bold;
+}
+
+#post_self figure figcaption{
+    font-size: 1vw;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    top: -1.5vw;
+    left: 2.5vw;
+}
+
+.post_video{
+    position: relative;
+    top: -4vw;
+    left: 8.5vw;
+}
+
+.post_event{
+    position: relative;
+    top: -8.1vw;
+    left: 17.5vw;
+}
+
+.post_article{
+    position: relative;
+    top: -12.2vw;
+    left: 25.5vw;
+}
+
+.sort{
+    grid-area: 3/1/4/2;
+    position: relative;
+    top: -15.2vw;
+    left: 32vw;
+    font-weight:normal;
+}
+
+.sep1{
+    position: relative;
+    top: -13vw;
+    width: 30.769vw;
+    left: -3vw;
+    
+}
+
+.sort img{
+    width: 0.899vw;
+
+}
+
+.feed{
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    background-color: #fdffff;
+    border-radius: 1vw;
+    position: relative;
+    top: -16vw;
+    height: 53.5vw;
+
+}
+/* 
+.recom figure img{
+    width: 3.356vw;
+
+} */
+
+/*     
+.promoter figure figcaption{
+    color: hotpink;
+} */
+
+
+
+.sharer{
+    font-size: small;
+    position: relative;
+    left: -1.5vw;
+    top: -0.8vw;
+    color: black;
+}
+
+.dots{
+    width: 2.398vw;
+    position: relative;
+    left: 34vw;
+    top: -4vw;
+}
+
+
+
+
+.promoter_dp{
+    width: 1.8vw; /*Showing as being crossed in inspect width is being ignored everywhere */
+    position: relative;
+    left: -1.5vw;
+    margin: 0px;
+    top: -0.5vw;
+    
+
+}
+
+/* How to overcome such discrepancies */
+
+.sep2{
+    position: relative;
+    top: -4.5vw;
+    width: 35vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    border-width: 0.05vw;
+}
+    
+
+#post_self .author_dp {
+    position: relative;
+    top: -5vw;
+    left: -1.7vw;
+    width: 4vw; /*why is this ignored */
+
+}
+
+.author figure figcaption h5{
+    position: relative;
+    top: -8.3vw;
+    left: 0.5vw;
+    color: black;
+}
+
+
+.feed .author figure figcaption h5+img{
+    position: relative;
+    top: -10.8vw;
+    left: 8vw;
+    width: 1vw;
+}
+
+.promote figcaption{
+    position: relative;
+    top: 5vw;
+}
+
+
+.feed .author figure figcaption h5+img+span{
+    position: relative;
+    top: -10.8vw;
+    left: 8vw;
+    font-weight: normal;
+}
+
+
+
+.feed .author figure figcaption h6{
+    position: relative;
+    top: -12vw;
+    left: 0.5vw;
+    font-weight: normal;
+}
+
+
+.feed .author figure figcaption h6+h6{
+    position: relative;
+    top: -13.5vw;
+    left: 0.5vw;
+    font-weight: normal;
+}
+
+
+
+.feed .author figure figcaption h6+h6 img{
+    position: relative;
+    top: 0.1vw;
+    left: -0vw;
+    width: 1vw;
+}
+
+
+
+.feed .author figure figcaption h6+img{
+    position: relative;
+    top: -16vw;
+    left: 2.5vw;
+    width: 1.5vw;
+}
+
+.share{
+    position: relative;
+}
+
+.author h3{
+    position: relative;
+    top: -21.5vw;
+    left: 30vw;
+    color: #1966b8;
+    font-size: large;
+    font-weight: bold;
+}
+
+.content{
+    background-color: #fdffff;
+    position: relative;
+    top: -20vw;
+    height: 37vw;
+
+}
+
+.content .ac_content{
+    position: relative;
+    top: -1vw;
+}
+
+.content .ac_content img{
+    width: 38vw;
+}
+
+.content .ac_content+img{
+    position: relative;
+    width: 3vw;
+    left: 1vw;
+}
+
+
+.content .ac_content+img+span{
+    position: relative;
+    top: -0.5vw;
+    left: 1.5vw;
+    width: 3vw;
+    font-size: small;
+    font-weight: lighter;
+}
+
+
+.content .ac_content+img+span+span{
+    position: relative;
+    top: -0.5vw;
+    left: 8vw;
+    width: 3vw;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.content .ac_content+img+span+span img{
+    width: 1vw;
+}
+
+.content .ac_content{
+    text-align: center;
+}
+
+.content+hr{
+    width: 35vw;
+    position: relative;
+    top: -17.5vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    border-width: 0.02vw;
+}
+
+#post .feed .share .promote .promote_like{
+    position: relative;
+    top: -16.5vw;
+}
+
+.promote{
+    position: relative;
+    top: -1vw;
+}
+
+
+#post .feed .share .promote figcaption{
+    position: relative;
+    top: -2vw;
+    font-weight: bold;
+    color: grey;
+
+}
+
+#post .feed .share .promote .promote_comment{
+    position: relative;
+    top: -21vw;
+    left: 8vw;
+}
+
+#post .feed .share .promote .promote_share{
+    position: relative;
+    top: -25.7vw;
+    left: 19vw;
+}
+
+#post .feed .share .promote .promote_send{
+    position: relative;
+    top: -30.2vw;
+    left: 28vw;
+}
+
+.promote .promote_like figure img{
+    width: 2.198vw
+}
+
+.feed .share .promote figure img{
+    width:2.198vw;
+}
+
+#news{
+    display: grid;
+    grid-template-columns: 56.902vw 22.027vw;
+    grid-template-rows: 1.383vw 22.587vw 1vw 17.482vw 1vw;
+    
+}
+
+#ac_news{
+    grid-area: 2/2/3/3;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    background-color: #fdffff;
+    border-radius: 1vw;
+}
+
+#hiring{
+    grid-area: 4/2/5/3;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    background-color: #fdffff;
+    border-radius: 1vw;
+}
+
+#footer{
+    grid-area: 5/2/6/3;
+    position: relative;
+    top: 1vw;
+    text-align: center;
+}
+
+#ac_news h4{
+    position: relative;
+    top: -1.3vw;
+    left: 0.75vw;
+
+}
+
+#ac_news h4 img{
+    position: relative;
+    top: 0.4vw;
+    left: 10.75vw;
+    width: 1.5vw;
+}
+
+.bullet{
+    width: 1.8vw;
+    position: relative;
+    left: -2.5vw;
+    top: -2vw;
+
+}
+
+#ac_news figure figcaption h5{
+    position: relative;
+    top: -4.9vw;
+    left: -0.5vw;
+   
+
+}
+
+
+#ac_news figure figcaption h6{
+    font-weight: normal;
+    position: relative;
+    top: -6.4vw;
+    left: -0.5vw;
+   
+}
+
+
+#ac_news figure figcaption h6 img{
+    width: 0.8vw;
+   
+}
+
+#ac_news figure{
+    position: relative;
+    top: 5vw;
+    margin-top: -5vw;
+    margin-bottom: -5vw;
+}
+/* 
+#ac_news+h4+figure+figure+figure+figure+figure+.more{
+    position: relative;
+    top: 15vw;
+    border: springgreen;
+    border-style: solid;
+} */
+
+
+#ac_news .more{
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+    color: grey;
+}
+
+/* Why is this making a difference? */
+
+#ac_news .more img{
+    position: relative;
+    left: 0vw;
+}
+
+#hiring img{
+    width: 20.6vw;
+    position: relative;
+    left: 0.6vw;
+    height: 17.4vw;
+}
+
+#footer h6{
+    font-weight: normal;
+    font-size: 0.7em;
+    color: gray;
+}
+
+#footer h6 img{
+    width: 1vw;
+    position: relative;
+    top: 0.1vw;
+}
+
+.h1_1{
+    position: relative;
+    left:-6vw;
+    top: -1vw;
+}
+
+.h1_2{
+    position: relative;
+    left:-1vw;
+    top: -3.6vw;
+}
+
+.h1_3{
+    position: relative;
+    left:5vw;
+    top: -6.4vw;
+}
+
+
+
+.h2_1{
+    position: relative;
+    left:-3vw;
+    top: -7.5vw;
+}
+
+.h2_2{
+    position: relative;
+    left:4vw;
+    top: -10.1vw;
+}
+
+
+.h3_1{
+    position: relative;
+    left:-4.5vw;
+    top: -10.9vw;
+}
+
+.h3_2{
+    position: relative;
+    left:2.5vw;
+    top: -13.8vw;
+}
+
+
+.h4_1{
+    position: relative;
+    left:-2.6vw;
+    top: -14.4vw;
+}
+
+.h4_2{
+    position: relative;
+    left:3.5vw;
+    top: -17.1vw;
+}
+
+.end{
+    position: relative;
+    top: -18vw;
+    font-weight: normal;
+}
+.end img{
+    width: 4vw;
+    position: relative;
+    top: 0.5vw;
+}
+
+#fixed_msg{
+    position: fixed;
+    bottom: 0px ;
+    right: 0px;
+    border-width: 0.01vw;
+    border-color: #ebebeb;
+    border-style: solid;
+    background-color: #fdffff;
+    border-radius: 1vw;
+    width: 18.482vw;
+    height:3.5vw;
+
+}
+
+#fixed_msg img{
+    width: 1.5vw;
+    position: relative;
+    left: 12.5vw;
+    top: -5.5vw;
+
+}
+
+#fixed_msg .msg_fix_dp{
+    width: 2.5vw;
+    position: relative;
+    top: 0.5vw;
+    left: 0.5vw;
+}
+
+/* Not working
+#fixed_msg+img{
+    width: 15vw;
+} */
+
+#fixed_msg h5{
+    position: relative;
+    top: -3vw;
+    left: 3.5vw;
+}
+
+/* body {
+    background-color: blue;
+} */
