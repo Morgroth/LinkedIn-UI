@@ -6,22 +6,21 @@ body {
 
 #navbar{
     display: grid;
-    grid-template-columns: 67.507em 22.492em;
+    grid-template-columns: 58.2542em 33.622em;
     background-color: #fdffff;
-    width: 90em;
+    width: 74em;
     height: 3.467em;
     margin:0px;
     position:relative;
-    top: -0.5em;
     left: -0.3em;
 }
 
 #left_navbar{
     display: grid;
-    grid-template-columns: 9.457em 28.613em 29.184em;
+    grid-template-columns: 0.457em 28.613em 29.184em;
     grid-template-rows: 0em 0.5em 2.727em ;
     grid-area: 1/1/2/2;
-    border-width: 0.008em;
+    border-width: 0.08em;
     border-style: solid;
     border-left-width: 0px;
     border-top-width: 0px;
@@ -42,7 +41,7 @@ body {
 
 #search div{
     background-color: #EEF3F7;
-    border-width: 0.008em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-left: 0px;
     border-style: solid;
@@ -140,7 +139,7 @@ body {
     display: grid;
     grid-template-columns: 6.153em 14.852em;
     grid-template-rows: 0.5em 2.727em ;
-    border-width: 0.008em;
+    border-width: 0.08em;
     height:inherit;
     border-style: solid;
     border-right-width: 0px;
@@ -206,29 +205,37 @@ END OF CODE FOR NAVIGATION BAR
 
  #home_page{
     display: grid;
-    grid-template-columns: 8.568em 15.804em 1.748em 37.762em 1.748em 22.027em;
+    grid-template-columns: 14.216em 1.748em 32.762em ;
     
+}
+
+
+#entire_prof{
+    grid-area: 1/1/2/2;
+    display: grid;
+    grid-template-rows: 1em 22em 1em 10.5em ;
+    width: fit-content;
 }
 
 
 #min_prof{
     display: grid;
-    grid-template-columns: 10.979em 15.680em;
-    grid-template-rows: 0.8em 3.986em 8.02em 4.115em 4.533em 2.793em;
+    grid-template-rows: 3.6em 8.02em 4.115em 3.633em 2.793em;
+    grid-template-columns: inherit;
     font-weight:100;
-    position: relative;
-    left: -1.9em;
+    grid-area: 2/1/3/2;
+    height: fit-content;
 }
 
 .top_border{
-    grid-area: 2/2/3/3;
-    border-width: 0.01em;
+    grid-area: 1/1/2/2;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
 }
 
 .top_border img{
-    width:15.88em;
+    width:14.292em;
 
 }
 
@@ -236,39 +243,41 @@ END OF CODE FOR NAVIGATION BAR
     width: 4.983em;
     border-radius: 2.4775em;
     position: relative;
-    left: 5.4em;
+    left: 4.4em;
     top: -2.60em;
+    grid-area: 2/3/3/4;
 }
 
 #profile{
-    grid-area: 3/2/4/3;
+    grid-area: 2/1/3/2;
     background-color:#fdffff;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
+
 }
 
 #con{
-    grid-area:4/2/5/3;
+    grid-area:3/1/4/2;
     background-color: #fdffff;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
 }
 
 #tools{
-    grid-area: 5/2/6/3;
+    grid-area: 4/1/5/2;
     background-color: #fdffff;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
 
 }
 
 #items{
-    grid-area: 6/2/7/3;
+    grid-area: 5/1/6/2;
     background-color: #fdffff;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
     border-radius: 0px 0px 1em 1em;
@@ -304,7 +313,7 @@ END OF CODE FOR NAVIGATION BAR
 
     position: relative;
     top: 0.9em;
-    left: 16.5em;
+    left: 14.5em;
     color:#1966b8;
     font-size: smaller;
 
@@ -326,7 +335,7 @@ color: gray;
     position: relative;
     margin-top: -3em;
     left: 4em;
-    top: -0.5em;
+    top: -1.4em;
     
 }
 
@@ -334,14 +343,14 @@ color: gray;
 #tools .tools_font1{
     position: relative;
     left: 1.7em;
-    top: -0.5em;
+    top: -1em;
     
 }
 
 
 #tools img{
     position: relative;
-    top: -0.75em;
+    top: -1.45em;
     width: 1.5em;
     left: 1em;
 }
@@ -363,21 +372,20 @@ color: gray;
 
 #bmin_prof{
     display: grid;
-    grid-template-columns: 0em 15.680em;
-    position: relative;
-    top: 25.213em;
-    left: 0.5em;
+    grid-area: 4/1/5/2; 
+    grid-template-columns: inherit;
+    grid-template-rows: 7.5em 3em;
+
     
 }
 
 #bmin_prof1{
-    grid-area: 1/2/2/3;
+    grid-area: 1/1/2/2;
     border-width: 0.01em;
     border-color: #ebebeb;
     border-style: solid;
     background-color: #fdffff;
     border-radius: 1em 1em 0px 0px;
-    height: 10em ;
 }
 
 #bmin_prof1 h4{
@@ -389,22 +397,20 @@ color: gray;
 
 #bmin_prof1 h4 span{
     position: relative;
-    left: 9em;
+    left: 8em;
     color: gray;
     font-size: large;
 }
 
 #bmin_prof2{
-    grid-area: 2/2/3/3;
-    border-width: 0.01em;
+    grid-area: 2/1/3/2;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
     background-color: #fdffff;
     border-radius: 0px 0px 1em 1em;
-    position: relative;
     color: gray;
-    height: 3em;
-    top: -15.2em;
+    
     
 }
 
@@ -415,22 +421,31 @@ color: gray;
     font-weight: bold;
 }
 
+/* DONE TILL HERE ALL, SET */
 
+/* DONE TILL HERE ALL, SET */
 
+/* DONE TILL HERE ALL, SET */
 
+/* DONE TILL HERE ALL, SET */
+
+/* DONE TILL HERE ALL, SET */
+
+/* DONE TILL HERE ALL, SET */
 
 
 
 #post{
-    grid-area: 1/4/2/5;
+    grid-area: 1/3/2/4;
     display: grid;
-    grid-template-rows: 0.8em 8.251em 2.237em 20em;
+    grid-template-rows: 1em 8.251em 2.237em;
+    
 }
 
 
 #post_self{
     grid-area: 2/1/3/2;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
     background-color: #fdffff;
@@ -449,7 +464,7 @@ color: gray;
     position: relative;
     left: 1em;
     top: -1em;
-    width: 30.468em;
+    width: 32.468em;
     height: 2.596em;
     border-radius: 2em;
     border-width: 0.1em;
@@ -470,6 +485,7 @@ color: gray;
     flex-direction: row;
     position: relative;
     top: -0.2em;
+    left: -0.75em;
 }
 
 #post_self_options figure{
@@ -486,24 +502,22 @@ color: gray;
     color: gray;
     position: relative;
     top: -1.5em;
-    left: 2.5em;
+    left: 2.25em;
 }
 
 
 .sep1{
+    width: 27.269em;
     position: relative;
-    width: 30.769em;
-    left: -3em;
-    top: -0.2em;
+    top: 0.5em;
     
 }
 
 .sort{
     grid-area: 3/1/4/2;
-    position: relative;
-    left: 38.5em;
-    top: -2.56em;
     font-weight:normal;
+    display: flex;
+    flex-direction: row;
 }
 
 .sort img{
@@ -511,29 +525,38 @@ color: gray;
 
 }
 
-/* 
-.recom figure img{
-    width: 3.356em;
-
-} */
-
-/*     
-.promoter figure figcaption{
-    color: hotpink;
-} */
+.sort h5{
+    text-align: center;
+    position: relative;
+    top: -1em;
+}
 
 
+#entire_feed{
+    display: grid;
+    grid-template-columns: inherit;
+    grid-area: 4/1/5/2;
+    
+
+}
 
 .feed{
-    border-width: 0.01em;
+    grid-template-rows: 2em 5em 37.5em 4em;
+    grid-template-columns: inherit;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
     background-color: #fdffff;
     border-radius: 1em;
-    height: 51.5em;
-    position: relative;
-    top: -3em;
+    display: grid;
+    height: 48.5em;
+}
+.promoter{
+    grid-area: 1/1/2/2;
+}
 
+.author{
+    grid-area: 2/1/3/2;
 }
 
 .promoter_dp{
@@ -548,8 +571,8 @@ color: gray;
 .promoter figure figcaption span{
     font-size: small;
     position: relative;
-    left: -2.5em;
-    top: -0.8em;
+    left: 0.5em;
+    top: -2.5em;
     color: black;
 }
 
@@ -562,24 +585,23 @@ color: gray;
 .dots{
     width: 2em;
     position: relative;
-    left: 35em;
+    left: 30.5em;
     top: -4em;
 }
 
 .sep2{
     position: relative;
     top: -4.2em;
-    width: 35em;
+    width: 32em;
     border-color: #ebebeb;
     border-style: solid;
     border-width: 0.025em;
 }
 
-#post_self .author_dp {
-    position: relative;
-    top: -4.5em;
-    left: -1.7em;
+.author_dp {
     width: 3em; 
+    position: relative;
+    left: -1.5em;
 
 }
 
@@ -609,7 +631,11 @@ color: gray;
 }
 
 
-
+.author figcaption{
+    position: relative;
+    top: 2.75em;
+    left: 2em;
+}
 
 .feed .author figure figcaption h6{
     position: relative;
@@ -645,29 +671,32 @@ color: gray;
 }
 
 .share{
-    position: relative;
+    grid-area: 4/1/5/2;
+    display: flex;
+    flex-direction: row;
 }
 
 .author h3{
     position: relative;
-    top: -18em;
-    left: 28em;
+    top: -14.5em;
+    left: 25.5em;
     color: #1966b8;
     font-size: large;
     font-weight: bold;
+    width: fit-content;
 }
 
 .content{
     background-color: #fdffff;
-    position: relative;
-    top: -20em;
-    height: 37em;
+    height: fit-content;
+    grid-area: 3/1/4/2;
+
 
 }
 
 
 .content .ac_content img{
-    width: 38em;
+    width: 100%;
 }
 
 .content .ac_content+img{
@@ -704,83 +733,60 @@ color: gray;
     text-align: center;
 }
 
-.content+hr{
-    width: 35em;
-    position: relative;
-    top: -17.5em;
+.content hr{
+    width: 33em;
     border-color: #ebebeb;
     border-style: solid;
     border-width: 0.02em;
 }
 
-#post .feed .share .promote .promote_like{
+#post .feed .share figcaption{
     position: relative;
-    top: -16.5em;
-}
-
-.promote{
-    position: relative;
-    top: -1em;
-}
-
-
-#post .feed .share .promote figcaption{
-    position: relative;
-    top: -2em;
+    top: -1.75em;
+    left: 2.5em;
     font-weight: bold;
     color: grey;
 
 }
 
-#post .feed .share .promote .promote_comment{
-    position: relative;
-    top: -21em;
-    left: 8em;
-}
-
-#post .feed .share .promote .promote_share{
-    position: relative;
-    top: -25.7em;
-    left: 19em;
-}
-
-#post .feed .share .promote .promote_send{
-    position: relative;
-    top: -30.2em;
-    left: 28em;
-}
-
-.promote .promote_like figure img{
-    width: 2.198em
-}
-
-.feed .share .promote figure img{
+.feed .share figure img{
     width:2.198em;
 }
 
+
+#home_page{
+    display: grid;
+    grid-template-columns: 14.216em 1.748em 35.262em  1em 12.027em;
+    
+}
+#entire_news{
+    grid-area: 1/5/2/6;
+}
 #news{
     display: grid;
-    grid-template-rows: 0.883em 17.587em 1em 17.482em 1em;
-    grid-area: 1/6/2/7;
+    grid-template-rows: 0.883em 17.587em 1em 15.482em 1em;
+    grid-area: 1/5/2/6;
     
 }
 
 #ac_news{
     grid-area: 2/2/3/3;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
     background-color: #fdffff;
     border-radius: 1em;
+    width: 20em;
 }
 
 #hiring{
     grid-area: 4/2/5/3;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
     background-color: #fdffff;
     border-radius: 1em;
+    width: 20em;
 }
 
 #footer{
@@ -800,7 +806,7 @@ color: gray;
 #ac_news h4 img{
     position: relative;
     top: 0.4em;
-    left: 10.75em;
+    left: 10em;
     width: 1.5em;
 }
 
@@ -855,10 +861,9 @@ color: gray;
 }
 
 #hiring img{
-    width: 20.6em;
+    width: 18.75em;
     position: relative;
     left: 0.6em;
-    height: 17.4em;
 }
 
 #footer h6{
@@ -946,7 +951,7 @@ color: gray;
     position: fixed;
     bottom: 0px ;
     right: 0px;
-    border-width: 0.01em;
+    border-width: 0.08em;
     border-color: #ebebeb;
     border-style: solid;
     background-color: #fdffff;
@@ -982,6 +987,327 @@ color: gray;
     left: 3.5em;
 }
 
-/* body {
-    background-color: blue;
-} */
+/* ////////// *//* ////////// *//* ////////// *//* ////////// *//* ////////// *//* ////////// *//* ////////// *//* ////////// */
+
+
+
+#index_page{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    top: -0.5em;
+    height: fit-content;
+}
+
+
+.blank_space{
+    flex: 1 1 auto;
+    width: 0.1em;
+    margin: 0px;
+}
+
+#main{
+    flex: 2 1 auto;
+    width: 55em;
+    background-color: #F3F2EE;
+}
+
+.blank_space1{
+    background-color: #FFFFFF;
+    height: 3.467em;
+    border:#ebebeb;
+    border-style: solid;
+    border-width: 0.08em;
+    border-top-width: 0em;
+    border-left-width: 0em;
+    border-right-width: 0em;
+}
+
+#index_page .blank_space2{
+    background-color: #F3F2EE;
+    width: 5em;
+    height: 50vh;
+}
+
+@media screen and (max-width: 1200px) {
+    #index_page .blank_space{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    #index_page .blank_space{
+        display: none;
+    }
+
+    #news{
+        display: none;
+    }
+
+    #search{
+        background-color: white;
+    }
+
+    #search div input{
+        display: none;
+    }
+
+
+    #search_logo{
+        display: none;
+    }
+
+    #logo2{
+        display: block;
+        height: 1.75em;
+        position: relative;
+        left: 2.25em;
+        top: 0em;
+    }
+
+    #logo{
+        position: relative;
+        left: 0.5em;
+    }
+
+    #navbar_link{
+        position: relative;
+        left: -10em;
+    }
+
+    #left_navbar{
+        display: grid;
+        grid-template-columns: 0.304em 18.075em 19.456em;
+    }
+
+    #navbar{
+        grid-template-columns: 38.836em 22.414em;
+    }    
+
+    #search img+img+span{
+        display: inline;
+        position: relative;
+        top: 2.15em;
+        font-size: small;
+        color: grey;
+    }
+}
+
+
+
+@media screen and (min-width:1001px){
+    #logo2{
+        display: none;
+    }
+
+    #search img+img+span{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 857.14px) {
+    #index_page .blank_space{
+        display: none;
+    }
+
+    #news{
+        display: none;
+    }
+
+    #navbar_link figure figcaption{
+        display: none;
+    }
+
+    #search img+img+span{
+        display: none;
+    }
+
+    #logo2{
+        position: relative;
+        top: 0.25em;
+    }
+
+    #navbar_link figure img{
+        position: relative;
+        top: 0.25em;
+    }
+
+    #navbar{
+        grid-template-columns: 37.836em 22.414em;
+    }    
+
+    #left_navbar{
+        display: grid;
+        grid-template-columns: 0.304em 18.075em 19.456em;
+    }
+
+    #work figure figcaption{
+        display: none;
+    }
+
+    #work figure img{
+        position: relative;
+        top: 0.25em;
+    }
+}
+
+@media screen and (min-width:751px){
+    .top_border img+img, #profile img+img, #profile+h3{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+    #navbar_link figure .home_img{
+        position: relative;
+        left: -0.25em;
+    }
+
+    #navbar_link figure .network_img{
+        position: relative;
+        left: -1.5em;
+        top: 0.4em;
+    }
+    
+    #navbar_link figure .job_img{
+        position: relative;
+        left: -3.25em;
+        top: 0.4em;
+    }
+    
+    #navbar_link figure .messaging_img{
+        position: relative;
+        left: -4.75em;
+        top: 0.4em;
+    }
+    
+    #navbar_link figure .notification_img{
+        position: relative;
+        left: -6.25em;
+        top: 0.4em;
+    }
+
+    #navbar_link figure .me_img{
+        position: relative;
+        left: -7.5em;
+        top: 0.4em;
+    }
+    
+    #navbar{
+        grid-template-columns: 28.836em 22.414em;
+    }    
+    
+    #con, #tools, #items, #bmin_prof,.top_border img, #profile img{
+        display: none;
+    }
+
+    #min_prof{
+        position: relative;
+        left: 3em;
+        grid-area: 1/2/2/3;
+    }
+
+
+    .top_border img+img{
+        display: block;
+        width: 34em;
+        position: relative;
+        border-color: #ebebeb;
+        border-width: 0.08em;
+        border-style: solid;
+        border-radius: 1em 1em 0px 0px ;
+        
+    }
+
+    #profile{
+        width: 34em;
+        position: relative;
+        top: -0.25em;
+        border-style: solid;
+        border-radius: 0px 0px 1em 1em;
+        border-color: #ebebeb;
+        border-width: 0.08em;
+    }
+
+    #profile img+img{
+        display: block;
+        position: relative;
+        left: 14.5em;
+    }
+
+    #post{
+        position: relative;
+        top: 13.5em;
+        left: -10.5em;
+        
+    }
+
+    #profile+h3{
+        display: inline-block;
+        color: grey;
+        position: relative;
+        left: 32em;
+        top: 14.5em;
+        font-size: small;
+
+    }
+
+    #profile+h3 img{
+        width: 2em;
+
+    }
+}
+
+@media screen and (max-width:600px){
+    .top_border img+img{
+        width: 37em;
+        position: relative;
+        left: -6.5em;
+    }
+
+    #profile{
+        position: relative;
+        left: -6em;
+        width: 36.5em;
+        top: -0.5em;
+    }
+
+    #profile img+img{
+        position: relative;
+        left: 15.5em;
+    }
+
+    #profile+h3{
+        position: relative;
+        left: 25em;
+    }
+
+    #post{
+        position: relative;
+        left: -17em;
+        
+    }
+
+    #post_self{
+        width: 37.2em;
+    }
+
+    .sep1{
+        position: relative;
+        left: -4em;
+        width: 32em;
+    }
+
+    .sep1+.sort{
+        position: relative;
+        left: 37.2em;
+    }
+
+    #quote{
+        display: none;
+    }
+
+
+}
